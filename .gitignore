@@ -1,0 +1,7 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.tmp
+.~lock.*#
+# Local backup, not for the live site
+_backup_v1/
