@@ -5,3 +5,5 @@ Thumbs.db
 .~lock.*#
 # Local backup, not for the live site
 _backup_v1/
+# Temp preview scratch files
+_preview_*
