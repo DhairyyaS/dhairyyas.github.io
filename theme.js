@@ -5,7 +5,7 @@
     if (btn) btn.textContent = theme === "dark" ? "☀" : "☽";
   }
   var saved = localStorage.getItem("theme");
-  var initial = saved || (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  var initial = saved || "light";
   apply(initial);
   if (btn) {
     btn.addEventListener("click", function () {
